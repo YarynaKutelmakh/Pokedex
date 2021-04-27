@@ -1,0 +1,150 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 1%;
+}
+h1 {
+  border: 1px solid #000;
+  width: 20%;
+  text-align: center;
+  margin-left: 40%;
+  padding: 0.3%;
+}
+.all-pokemons {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 20px 10px;
+  text-align: center;
+}
+.card {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.load-more {
+  border-radius: 2px;
+  padding: 0.5rem 1.5rem;
+  min-width: 46%;
+  margin-top: 1rem;
+  margin-top: 2%; 
+  cursor: pointer;
+  padding: 1%;
+  background-color: rgb(87, 87, 255);
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 2%;
+}
+button:focus{
+  outline: none;
+}
+.names {
+  text-transform: capitalize;
+}
+.imgPokemon {
+  width: 150px;
+  height: 150px;
+  margin-top: 9%;
+}
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(247, 247, 247);
+}
+.electric {
+  background-color: rgb(255, 255, 161);
+}
+.bug {
+  background-color: #F6D6A7;
+}
+.poison {
+  background-color: #e0a7f6;
+}
+.normal {
+  background-color: #F4F4F4;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+.fire {
+  background-color: #FBE3DF;
+}
+.grass {
+  background-color:#E2F9E1;
+}
+.water {
+  background-color:#E0F1FD;
+}
+table td {
+  text-transform: capitalize;;
+}
+table, td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr img {
+  max-width: 90%;
+  margin-left: 16%;
+}
+table {
+  margin-top: 2%;
+  max-width: 20%;
+  position: fixed;
+}
+.content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.name-table {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.isHidden {
+  display: none;
+}
+.isOpen {
+  display: block;
+}
+@media (max-width: 769px) {
+  .imgPokemon {
+    width: 100px;
+    height: 100px;
+  }
+  .btnMorePokemon {
+    width: 41.5%;
+  }
+}
+@media (max-width: 415px) {
+  .imgPokemon {
+    width: 57px;
+    height: 57px;
+  }
+  .names {
+    font-size: 10px;
+  }
+  .btnMorePokemon {
+    width: 42.5%;
+    font-size: 12px;
+  }
+  h1 {
+    width: 30%;
+    font-size: 20px;
+  }
+  table, tr, td {
+    padding: 3px;
+    font-size: 12px;
+  }
+  .name-table {
+    font-size: 18px;
+  }
+  .type {
+    font-size: 11px;
+  }
+  .all-pokemons {
+    grid-template-columns: 45% 45%;
+  }
+  .load-more {
+    min-width: 54%;
+  }
+}  
